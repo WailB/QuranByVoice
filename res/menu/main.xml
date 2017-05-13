@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.integratedideas.speechandaudio.MainActivity" >
+
+ <!-- <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="التعليمات"/>-->
+     <item
+        android:id="@+id/menuVoiceRecog"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="التعليمات"/>
+ <!--<item
+        android:id="@+id/menuTTS"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Text to Speech"/>
+      <item
+        android:id="@+id/menuRecord"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Record"/>
+      <item
+        android:id="@+id/menuAudioProcess"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Audio Process"/>
+-->
+</menu>

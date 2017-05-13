@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <EditTextPreference android:title="مدة التوقف بين الايات"
+                      android:key="Delay"
+                      android:inputType="number"
+                      android:summary="الرجاء ادخال مدة التوقف بين الايات بالثواني"></EditTextPreference>
+  <CheckBoxPreference android:title="إعادة القراءة"
+                      android:defaultValue="false"
+                      android:summary="هذا الاختيار سيسمح للبرنامج بإعادة القراءة حسب نوع التلاوة"
+                      android:key="Repeat" />
+  <ListPreference     android:title="اختيار القاريء"
+                      android:summary="اختار القاريء الذي تود الاستماع اليه"
+                      android:key="Reciter"
+                      android:defaultValue="0"
+                      android:entries="@array/Reciters"
+                      android:entryValues="@array/RecitersValues" />
+  <ListPreference     android:title="اختيار التلاوة"
+                      android:summary="اختار نوع التلاوة المطلوبة"
+                      android:key="ReciteMethod"
+                      android:defaultValue="0"
+                      android:entries="@array/ReciteMethod"
+                      android:entryValues="@array/ReciteMethodValues" />
+  <ListPreference     android:title="اختيار السورة"
+                      android:summary="اختار السورة المطلوبة"
+                      android:key="SuraPref"
+                      android:defaultValue="0"
+                      android:entries="@array/Sora_array"
+                      android:entryValues="@array/SoraValue_array" />
+  <EditTextPreference android:title="رقم الايه"
+                      android:key="AyaPref"
+                      android:inputType="number"
+                      android:summary="الرجاء ادخال رقم الايه المطلوبة"></EditTextPreference>
+</PreferenceScreen>
